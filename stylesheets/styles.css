@@ -7,6 +7,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-size: 28px;
   color:#222;
   margin:0 0 20px;
 }
@@ -20,13 +21,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:44px;
   font-weight: 500;
 }
 
 h2 {
   color:#393939;
   font-weight: 500;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 h3, h4, h5, h6 {
@@ -105,7 +107,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:210px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -171,7 +173,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:560px;
   float:right;
   padding-bottom:50px;
 }
