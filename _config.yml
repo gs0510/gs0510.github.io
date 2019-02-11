@@ -1,15 +1,10 @@
-# Welcome to Jekyll!
-
-# Site settings
-title: Jaseem Abid
-email: jaseemabid@gmail.com
-
-description: >
-  Jaseem Abid's personal website
-
-baseurl: ""
-url: "http://jaseemabid.github.io"
-username: jaseemabid
-
-# Build settings
+permalink: /posts/:title
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: Zach Holman
+url: https://zachholman.com/left
+description: A fantastic blog that is fantastic.
+twitter: holman

@@ -1,27 +1,16 @@
 ---
-layout: default
+layout: layout
+title: "Posts"
 ---
 
-<div class="home">
-
-  <h1>Blog</h1>
-
-  <table class="posts">
-    <tbody>
-      {% for post in site.posts %}
-      {% unless post.hidden %}
-      <tr>
-        <td>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{post.title}}
-          </a>
-        </td>
-        <td>
-          {{ post.date | date: "%b %-d, %Y" }}
-        </td>
-      </tr>
+<section class="content">
+  <ul class="listing">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <li>
+        <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endunless %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+    {% endfor %}
+  </ul>
+</section>

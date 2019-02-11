@@ -1,29 +1,35 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+---
+layout: layout
+---
 
-  <body>
+<section class="content">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
 
-    <div class="wrapper">
-      {% include header.html %}
-      <section>
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
 
-        <h1>{{ page.title }}</h1>
+  {{ content }}
 
-        <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </time>
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+        <img src="{{ site.github.owner_gravatar_url }}?s=142" height="50" width="50" />
+      </a>
 
-        <article>
-          {{ content }}
-        </article>
+      <p>
+        I'm a developer at GitHub. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">Follow me on Twitter</a>;
+        you'll enjoy my tweets. I take care to carefully craft each one. Or at least aim to make
+        you giggle. Or offended. One of those two&mdash; I haven't decided which yet.
+      </p>
 
-      <br/><br/>
-      <script async defer src="https://www.recurse-scout.com/loader.js?t=298747a8a50ca362138e799f749fcf3f"></script>
-
-      </section>
-      {% include footer.html %}
-      {% include track.ext %}
-  </body>
-</html>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
+      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+</section>
