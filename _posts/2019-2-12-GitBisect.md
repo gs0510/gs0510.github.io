@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git-bisect: A savior in times of trouble!
+title: git bisect - A savior in times of trouble!
 ---
 
 Things used to work, now they don't anymore. Somebody pushed a rogue commit, and you want to find the culprit. The solution to this problem is easier than you'd imagine. 
