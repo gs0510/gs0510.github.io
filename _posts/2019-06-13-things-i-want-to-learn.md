@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: Things I want to do/learn in near future
 ---
 ## Things I want to do/learn about in near future
 
