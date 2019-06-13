@@ -2,7 +2,6 @@
 layout: post
 title: Things I want to do/learn in near future
 ---
-## Things I want to do/learn about in near future
 
 - How to make my own keyboard?! [@cassidoo](https://twitter.com/cassidoo) makes a lot of her own keyboards and they look v cool, I would love to make my own! 
 
