@@ -1,7 +1,7 @@
 ---
-published: false
+layout: post
+title: Volunteering at AddisCoder!
 ---
-## Volunteering at AddisCoder
 
 This past summer I spent a month in Ethiopia in the capital Addis Ababa volunteering to teach coding to high school students from all over Ethiopia 🇪🇹.
 
