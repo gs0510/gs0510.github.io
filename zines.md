@@ -6,6 +6,6 @@ permalink: /zines/
 
 Here's a few zines I have made!
 
-[The Magic of Merkle Trees](gs0510.github.io/docs/merkle_trees.pdf)
+[The Magic of Merkle Trees](/docs/merkle_trees.pdf)
 
 This zine talks about merkle tress, their characterstics and how they are used!

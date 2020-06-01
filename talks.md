@@ -6,7 +6,7 @@ permalink: /talks/
 
 These are the talks that I have given in the past!
 
-[Replacing PID Allocation implementation with IDR API](gs0510.github.io/docs/OSS_Europe_Slides.pdf)
+[Replacing PID Allocation implementation with IDR API](/docs/OSS_Europe_Slides.pdf)
 
 The Process ID in the Linux Kernel is implemented using a bitmap. Using the IDR API to replace the implementation not only leads to more readable code, it also leads to lesser code and a speedup in PID allocation.
 
