@@ -128,10 +128,10 @@ In theory, using IDR should also be faster, since pidmap is linear time whereas 
 
 As for now, here are the size metrics before and after IDR implementation. The kernel size seems to have shrunk nicely! :D
 
-|        |        filename        | text | data | bss |  dec  |   hex    |
-|--------|------------------------|------|------+-----|-------|----------|
-|        |                        |      |      |     |       |          |
-| BEFORE | kernel/pid.o           | 8447 | 3894 |  64 | 12405 | 3075     |
-| AFTER  |                        | 7667 | 2018 |  64 |  9749 | 2615     |
-| BEFORE | kernel/pid_namespace.o | 5692 | 1842 | 192 |  7726 | 1e2e     |
-| AFTER  |                        | 5682 | 1842 | 192 |  7716 | 1.00E+24 |
+|        |        filename        | text   | data        | bss     |  dec  |   hex    |
+|--------|------------------------|--------|-------------|---------|-------|----------|
+|        |                        |        |             |         |       |          |
+| BEFORE | kernel/pid.o           | 8447   | 3894        |  64     | 12405 | 3075     |
+| AFTER  |                        | 7667   | 2018        |  64     |  9749 | 2615     |
+| BEFORE | kernel/pid_namespace.o | 5692   | 1842        | 192     |  7726 | 1e2e     |
+| AFTER  |                        | 5682   | 1842        | 192     |  7716 | 1.00E+24 |

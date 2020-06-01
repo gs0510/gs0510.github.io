@@ -3,13 +3,13 @@ layout: post
 title: Replacing PID bitmap implementation with IDR API- Final Stats
 ---
 
-|        |        filename        | text | data | bss |  dec  |   hex    |
-|--------|------------------------|------|------|-----|-------|----------|
-|        |                        |      |      |     |       |          |
-| BEFORE | kernel/pid.o           | 8447 | 3894 |  64 | 12405 | 3075     |
-| AFTER  |                        | 3397 | 304  |   0 | 3701  |  e75     |
-| BEFORE | kernel/pid_namespace.o | 5692 | 1842 | 192 |  7726 | 1e2e     |
-| AFTER  |                        | 2854 | 216  | 16  |  3086 | c0e      |
+|        |        filename          | text | data | bss |  dec  |   hex    |
+|--------|--------------------------|------|------|-----|-------|----------|
+|        |                          |      |      |     |       |          |
+| BEFORE | kernel/pid.o             | 8447 | 3894 |  64 | 12405 | 3075     |
+| AFTER  |                          | 3397 | 304  |   0 | 3701  |  e75     |
+| BEFORE | kernel/pid_namespace.o   | 5692 | 1842 | 192 |  7726 | 1e2e     |
+| AFTER  |                          | 2854 | 216  | 16  |  3086 | c0e      |
 
 #### ps
 
